@@ -3,7 +3,7 @@ package com.zx.xindada.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zx.xindada.model.dto.userAnswer.UserAnswerQueryRequest;
+import com.zx.xindada.model.dto.useranswer.UserAnswerQueryRequest;
 import com.zx.xindada.model.entity.UserAnswer;
 import com.zx.xindada.model.vo.UserAnswerVO;
 
