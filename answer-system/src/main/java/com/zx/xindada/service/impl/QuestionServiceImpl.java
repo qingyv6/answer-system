@@ -27,7 +27,6 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -89,7 +88,7 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question> i
         }
         //  从对象中取值
         Long id = questionQueryRequest.getId();
-        List<QuestionContentDTO> questionContent = questionQueryRequest.getQuestionContent();
+        String questionContent = questionQueryRequest.getQuestionContent();
         Long appId = questionQueryRequest.getAppId();
         Long userId = questionQueryRequest.getUserId();
         Long notId = questionQueryRequest.getNotId();

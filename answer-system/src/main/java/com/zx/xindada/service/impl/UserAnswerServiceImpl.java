@@ -92,7 +92,7 @@ public class UserAnswerServiceImpl extends ServiceImpl<UserAnswerMapper, UserAns
         Long appId = userAnswerQueryRequest.getAppId();
         Integer appType = userAnswerQueryRequest.getAppType();
         Integer scoringStrategy = userAnswerQueryRequest.getScoringStrategy();
-        List<String> choices = userAnswerQueryRequest.getChoices();
+        String choices = userAnswerQueryRequest.getChoices();
         Long resultId = userAnswerQueryRequest.getResultId();
         String resultName = userAnswerQueryRequest.getResultName();
         String resultDesc = userAnswerQueryRequest.getResultDesc();
