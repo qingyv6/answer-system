@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * 应用服务
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 public interface AppService extends IService<App> {
 

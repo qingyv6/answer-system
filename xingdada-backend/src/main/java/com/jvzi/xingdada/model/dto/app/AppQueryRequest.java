@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 查询应用请求
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

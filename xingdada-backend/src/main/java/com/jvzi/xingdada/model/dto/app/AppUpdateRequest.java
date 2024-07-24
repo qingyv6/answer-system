@@ -9,7 +9,7 @@ import java.util.Date;
  * 更新应用请求
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @Data
 public class AppUpdateRequest implements Serializable {

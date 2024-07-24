@@ -9,7 +9,7 @@ import java.util.List;
  * 编辑评分结果请求
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @Data
 public class ScoringResultEditRequest implements Serializable {

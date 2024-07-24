@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * App 应用类型枚举
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 public enum AppTypeEnum {
 

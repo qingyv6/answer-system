@@ -14,7 +14,7 @@ import java.util.List;
  * 题目视图
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @Data
 public class QuestionVO implements Serializable {

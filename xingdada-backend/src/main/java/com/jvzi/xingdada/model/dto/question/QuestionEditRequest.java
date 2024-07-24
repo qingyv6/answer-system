@@ -9,7 +9,7 @@ import java.util.List;
  * 编辑题目请求
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @Data
 public class QuestionEditRequest implements Serializable {

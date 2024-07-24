@@ -13,7 +13,7 @@ import java.util.List;
  * 用户答案视图
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @Data
 public class UserAnswerVO implements Serializable {

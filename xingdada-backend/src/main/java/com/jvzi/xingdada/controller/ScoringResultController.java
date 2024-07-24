@@ -31,7 +31,7 @@ import java.util.List;
  * 评分结果接口
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @RestController
 @RequestMapping("/scoringResult")

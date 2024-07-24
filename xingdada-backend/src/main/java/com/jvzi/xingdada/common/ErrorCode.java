@@ -4,7 +4,7 @@ package com.jvzi.xingdada.common;
  * 自定义错误码
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ *
  */
 public enum ErrorCode {
 

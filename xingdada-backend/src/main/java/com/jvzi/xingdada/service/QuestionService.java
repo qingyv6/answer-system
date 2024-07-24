@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * 题目服务
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 public interface QuestionService extends IService<Question> {
 

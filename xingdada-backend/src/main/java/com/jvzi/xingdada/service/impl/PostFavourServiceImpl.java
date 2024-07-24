@@ -23,7 +23,7 @@ import org.springframework.transaction.annotation.Transactional;
  * 帖子收藏服务实现
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ *
  */
 @Service
 public class PostFavourServiceImpl extends ServiceImpl<PostFavourMapper, PostFavour>

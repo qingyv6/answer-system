@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * 评分结果服务
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 public interface ScoringResultService extends IService<ScoringResult> {
 

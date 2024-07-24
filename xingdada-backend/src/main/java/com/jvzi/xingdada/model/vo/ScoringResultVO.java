@@ -13,7 +13,7 @@ import java.util.List;
  * 评分结果视图
  *
  * @author <a href="https://github.com/qingyv6">橘子</a>
- * @from jvzi
+ *
  */
 @Data
 public class ScoringResultVO implements Serializable {
