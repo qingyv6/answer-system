@@ -89,7 +89,7 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question> i
         }
         //  从对象中取值
         Long id = questionQueryRequest.getId();
-        String questionContent = questionQueryRequest.getQuestionContent();
+        List<QuestionContentDTO> questionContent = questionQueryRequest.getQuestionContent();
         Long appId = questionQueryRequest.getAppId();
         Long userId = questionQueryRequest.getUserId();
         Long notId = questionQueryRequest.getNotId();

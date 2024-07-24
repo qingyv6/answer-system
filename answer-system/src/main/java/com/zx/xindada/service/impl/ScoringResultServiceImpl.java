@@ -96,7 +96,7 @@ public class ScoringResultServiceImpl extends ServiceImpl<ScoringResultMapper, S
         String resultName = scoringResultQueryRequest.getResultName();
         String resultDesc = scoringResultQueryRequest.getResultDesc();
         String resultPicture = scoringResultQueryRequest.getResultPicture();
-        String resultProp = scoringResultQueryRequest.getResultProp();
+        List<String> resultProp = scoringResultQueryRequest.getResultProp();
         Integer resultScoreRange = scoringResultQueryRequest.getResultScoreRange();
         Long appId = scoringResultQueryRequest.getAppId();
         Long userId = scoringResultQueryRequest.getUserId();
