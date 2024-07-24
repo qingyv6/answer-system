@@ -226,6 +226,17 @@ declare namespace API {
     message?: string;
   };
 
+  type checkUsingGETParams = {
+    /** echostr */
+    echostr?: string;
+    /** nonce */
+    nonce?: string;
+    /** signature */
+    signature?: string;
+    /** timestamp */
+    timestamp?: string;
+  };
+
   type DeleteRequest = {
     id?: number;
   };
@@ -555,7 +566,8 @@ declare namespace API {
     id?: number;
     notId?: number;
     pageSize?: number;
-    questionContent?: string;
+    questionContent?: QuestionContentDTO[];
+    searchText?: string;
     sortField?: string;
     sortOrder?: string;
     userId?: number;
@@ -623,7 +635,7 @@ declare namespace API {
     resultDesc?: string;
     resultName?: string;
     resultPicture?: string;
-    resultProp?: string;
+    resultProp?: string[];
     resultScoreRange?: number;
     searchText?: string;
     sortField?: string;
@@ -711,7 +723,7 @@ declare namespace API {
   type UserAnswerQueryRequest = {
     appId?: number;
     appType?: number;
-    choices?: string;
+    choices?: string[];
     current?: number;
     id?: number;
     notId?: number;
@@ -749,6 +761,11 @@ declare namespace API {
     updateTime?: string;
     user?: UserVO;
     userId?: number;
+  };
+
+  type userLoginByWxOpenUsingGETParams = {
+    /** code */
+    code: string;
   };
 
   type UserLoginRequest = {
