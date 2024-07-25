@@ -1,4 +1,10 @@
 declare namespace API {
+  type AiGenerateQuestionRequest = {
+    appId?: number;
+    optionNumber?: number;
+    questionNumber?: number;
+  };
+
   type App = {
     appDesc?: string;
     appIcon?: string;
@@ -97,6 +103,12 @@ declare namespace API {
   type BaseResponseInt_ = {
     code?: number;
     data?: number;
+    message?: string;
+  };
+
+  type BaseResponseListQuestionContentDTO_ = {
+    code?: number;
+    data?: QuestionContentDTO[];
     message?: string;
   };
 
@@ -224,17 +236,6 @@ declare namespace API {
     code?: number;
     data?: UserVO;
     message?: string;
-  };
-
-  type checkUsingGETParams = {
-    /** echostr */
-    echostr?: string;
-    /** nonce */
-    nonce?: string;
-    /** signature */
-    signature?: string;
-    /** timestamp */
-    timestamp?: string;
   };
 
   type DeleteRequest = {
@@ -566,8 +567,7 @@ declare namespace API {
     id?: number;
     notId?: number;
     pageSize?: number;
-    questionContent?: QuestionContentDTO[];
-    searchText?: string;
+    questionContent?: string;
     sortField?: string;
     sortOrder?: string;
     userId?: number;
@@ -635,7 +635,7 @@ declare namespace API {
     resultDesc?: string;
     resultName?: string;
     resultPicture?: string;
-    resultProp?: string[];
+    resultProp?: string;
     resultScoreRange?: number;
     searchText?: string;
     sortField?: string;
@@ -723,7 +723,7 @@ declare namespace API {
   type UserAnswerQueryRequest = {
     appId?: number;
     appType?: number;
-    choices?: string[];
+    choices?: string;
     current?: number;
     id?: number;
     notId?: number;
@@ -761,11 +761,6 @@ declare namespace API {
     updateTime?: string;
     user?: UserVO;
     userId?: number;
-  };
-
-  type userLoginByWxOpenUsingGETParams = {
-    /** code */
-    code: string;
   };
 
   type UserLoginRequest = {
